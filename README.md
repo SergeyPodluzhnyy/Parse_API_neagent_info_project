@@ -19,13 +19,13 @@ This program loads and clears data from neagent.info in the database, the API al
     - Run CMD
     - cd <Path you project>
     - Create a virtual environment:<br>
-```
-env\Scripts\activate   
-```
+    <pre>```
+        env\Scripts\activate   
+        ```</pre>
 - install all required python libraries in the new environment:<br>
-```
-pip install -r req.txt
-```
+    <pre>```
+        pip install -r req.txt
+        ```</pre>
 
 ### Note:
 
