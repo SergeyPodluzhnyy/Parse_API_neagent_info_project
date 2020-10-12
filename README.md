@@ -1,5 +1,4 @@
-<center>
-<h3><i>This program loads and clears data from neagent.info in the database, the API allows you to update data and make views in JSON format.</i></h3><br>
+<h3 text-align="center"><i>This program loads and clears data from neagent.info in the database, the API allows you to update data and make views in JSON format.</i></h3><br>
 HackerU Project<br>
 2020-10-12
 </center>
