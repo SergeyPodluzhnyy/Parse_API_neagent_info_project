@@ -16,9 +16,9 @@ This program loads and clears data from neagent.info in the database, the API al
 - Create a folder on disk
 - Save files to it
 - Create a virtual environment:
-    1. Run CMD
-    2. cd <Path you project>
-    3. Create a virtual environment:
+    /1. Run CMD
+    /2. cd <Path you project>
+    /3. Create a virtual environment:
         ```
         env\Scripts\activate   
         ```
