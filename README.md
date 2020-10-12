@@ -22,7 +22,7 @@ This program loads and clears data from neagent.info in the database, the API al
         ```
         env\Scripts\activate   
         ```
-- install all required python libraries in the new environment:
+- install all required python libraries in the new environment:<br>
         ```
         pip install -r req.txt
         ```
