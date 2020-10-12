@@ -11,16 +11,14 @@ This program loads and clears data from neagent.info in the database, the API al
 
 ## How to install
 
-### Windows 7:-
+### Windows 7:
 
 - Create a folder on disk
 - Save files to it
 - Create a virtual environment:
-<ol>
-    <li> Run CMD</li>
+<ol><li> Run CMD</li>
     <li> cd <Path you project></li>
-    <li> Create a virtual environment:</li>
-
+    <li> Create a virtual environment:</li></ol>
         ```
         env\Scripts\activate   
         ```
@@ -28,7 +26,7 @@ This program loads and clears data from neagent.info in the database, the API al
         ```
         pip install -r req.txt
         ```
-</ol>
+
 ### Note:
 
 - When the program is first launched, it creates the database  and CSV objects necessary for its operation.
