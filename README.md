@@ -20,7 +20,7 @@ This program loads and clears data from neagent.info in the database, the API al
     <li> Run CMD</li>
     <li> cd <Path you project></li>
     <li> Create a virtual environment:</li>
-</ol>
+
         ```
         env\Scripts\activate   
         ```
@@ -28,7 +28,7 @@ This program loads and clears data from neagent.info in the database, the API al
         ```
         pip install -r req.txt
         ```
-
+</ol>
 ### Note:
 
 - When the program is first launched, it creates the database  and CSV objects necessary for its operation.
