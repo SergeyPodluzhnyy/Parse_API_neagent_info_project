@@ -16,9 +16,9 @@ This program loads and clears data from neagent.info in the database, the API al
 - Create a folder on disk
 - Save files to it
 - Create a virtual environment:
-    /1. Run CMD
-    /2. cd <Path you project>
-    /3. Create a virtual environment:
+    1) Run CMD
+    2) cd <Path you project>
+    3) Create a virtual environment:
         ```
         env\Scripts\activate   
         ```
@@ -45,30 +45,28 @@ This program loads and clears data from neagent.info in the database, the API al
 
 ### Program operation via the web interface:
 
-- The program performs the following actions:
+**The program performs the following actions:**
+
+- Load new data. page_num - this is the depth of loading data from the site neagent.info (number of pages starting from the first page)
         ```
         http://127.0.0.1:5000/api/load_new_data/<page_num>  
         ```
-        Load new data. page_num - this is the depth of loading data
-        from the site neagent.info (number of pages starting from the first page)
-
+- Allows you to output a selection from the database (field/value)
         ```
         http://127.0.0.1:5000/api/select_from_db/<field>/<value>  
-        ```
-        Allows you to output a selection from the database (field/value)
+        ```       
         For example: 
             ```
             http://127.0.0.1:5000/api/select_from_db/district/ГМР  
             ```
+- Displays apartments that have fallen in price           
         ```
         http://127.0.0.1:5000/api/cheap_aparts  
         ```
-        Displays apartments that have fallen in price
+- Displays areas where apartments are becoming more expensive        
         ```
         http://127.0.0.1:5000/api/expensive_district  
         ```
-        Displays areas where apartments are becoming more expensive
-
 
 ### If data loading is successful, the browser will output JSON data
 Else, an error message and error text will be displayed:
@@ -76,4 +74,4 @@ Else, an error message and error text will be displayed:
         {"status": "error", "error_text": "some error text"}
         ```    
 
-## **Thank you for reading this !**
+## **Thank you for reading this far !**
