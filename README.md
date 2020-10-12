@@ -1,6 +1,8 @@
-This program loads and clears data from neagent.info in the database, the API allows you to update data and make views in JSON format.
-HackerU Project
+<center>
+<h3><i>This program loads and clears data from neagent.info in the database, the API allows you to update data and make views in JSON format.</i></h3><br>
+HackerU Project<br>
 2020-10-12
+</center>
 <h1 align="center">Parse_API_neagent_info_project </h1>
 <p align="center">
 <img src="https://i.ibb.co/D48sCH6/Screenshot-155.jpg" width="80%"></p>
